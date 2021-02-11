@@ -1,13 +1,76 @@
 /* This is my main CSS file */
 
+.site-title {
+    color: lawngreen;
+    /* Note: Saving my previous colour scheme choice for testing with Notes page. color: #5F9EA0; */ 
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px #000000;
+}
+
 body {
-
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 
-header, main, footer {
-
+header, footer {
+    background-color: darkslategray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1, h2 {
-    
+main {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: indigo;
+}
+
+p.blocktext {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65% 
+}
+
+hr {
+    width:35%;
+}
+
+ul {
+    list-style: inside;
+    list-style-type:square; 
+}
+
+ul li {
+    background: grey;
+}
+
+ul li:nth-child(odd) {
+    background:honeydew;
+}
+
+a:link, a.visited {
+    color:blue;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover {
+    color:green;
+    background-color:lightgoldenrodyellow;
+}
+
+a:active {
+    background:green;
+    color:white;
 }
