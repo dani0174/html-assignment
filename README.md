@@ -1,2 +1,2 @@
 # html-assignment
-Week 4 Assignment - Simple HTML Website
+Week 5 Assignment - Styling the HTML Page
